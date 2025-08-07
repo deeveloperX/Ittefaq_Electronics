@@ -2,4 +2,13 @@
 
 @theme {
   --color-primary: #1e2d7d;
+  --color-secondry: #2e3c82;
+  --color-button: #FF8040;
+  --color-hoverbutton: #ff6f27;
+  --color-hoverbg: #1e2d7d;
+  --color-hovertext: #EEA47F;
+
+  --font1: 'Poppins', sans-serif;
+  --font2: 'Roboto', sans-serif;
+  --font3: 'Montserrat', sans-serif;
 }
