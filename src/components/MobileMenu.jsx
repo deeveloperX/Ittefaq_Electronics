@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaTimes, FaHome, FaThList, FaTags, FaMapMarkerAlt, FaInfoCircle, FaWhatsapp, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { FaTimes, FaHome, FaThList, FaTags, FaMapMarkerAlt, FaInfoCircle, FaWhatsapp, FaPhoneAlt, FaEnvelope, FaFacebookF, FaInstagram } from "react-icons/fa";
 import products from "../data/products"; // Import from products.js
 import { Link } from "react-router-dom";
 
