@@ -1,5 +1,7 @@
 import { useState } from "react";
-import { FaBars, FaUser, FaHeart, FaShoppingCart, FaSearch } from "react-icons/fa";
+import { FaBars, FaSearch } from "react-icons/fa";
+import { HiBars3CenterLeft } from "react-icons/hi2";
+import { CiUser, CiHeart, CiShoppingCart   } from "react-icons/ci";
 import MobileMenu from "./MobileMenu";
 import products from "../data/products"; // Import products.js
 import logo from "../assets/logo.png";
@@ -27,7 +29,7 @@ const MainHeader = () => {
                 {/* Mobile: Menu Icon */}
                 <div className="md:hidden flex items-center">
                     <button onClick={() => setIsMobileMenuOpen(true)}>
-                        <FaBars className="text-xl" />
+                        <HiBars3CenterLeft className="text-3xl" />
                     </button>
                 </div>
 
@@ -70,9 +72,9 @@ const MainHeader = () => {
 
                 {/* Icons */}
                 <div className="flex items-center gap-4">
-                    <FaUser className="text-xl cursor-pointer" />
-                    <FaHeart className="text-xl cursor-pointer" />
-                    <FaShoppingCart className="text-xl cursor-pointer" />
+                    <CiUser className="text-xl cursor-pointer hidden lg:block" />
+                    <CiHeart className="text-xl cursor-pointer hidden md:block" />
+                    <CiShoppingCart className="text-xl cursor-pointer" />
                 </div>
             </div>
             <MobileMenu isOpen={isMobileMenuOpen} onClose={() => setIsMobileMenuOpen(false)} />

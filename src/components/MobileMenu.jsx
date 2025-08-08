@@ -90,6 +90,23 @@ const MobileMenu = ({ isOpen, onClose }) => {
             <FaEnvelope className="text-blue-500" />
             faizanjum79@gmail.com
           </a>
+
+          <a
+            href="https://www.facebook.com/Anjummushta/"
+            className="flex items-center gap-2 text-gray-700 hover:underline"
+          >
+            <FaFacebookF className="text-blue-500" />
+            Facebook | Ittefaq Electronics
+          </a>
+
+          <a
+            href="https://www.instagram.com/ittefaqelectronicssialkot/"
+            className="flex items-center gap-2 text-gray-700 hover:underline"
+          >
+            <FaInstagram className="text-red-500" />
+            Instagram | Ittefaq Electronics
+          </a>
+          
         </div>
 
       </div>
